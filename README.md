@@ -104,13 +104,13 @@ curl http://localhost:8080/api/weather/Lusaka
 ### Try Other Cities
 
 ```bash
-# New York
+# kitwe
 curl http://localhost:8080/api/weather/kitwe
 
-# Tokyo
+# luanshya 
 curl http://localhost:8080/api/weather/luanshya 
 
-# Paris
+# chingola
 curl http://localhost:8080/api/weather/chingola
 ```
 
