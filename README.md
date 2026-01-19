@@ -87,14 +87,14 @@ GET /api/weather/{city}
 ### Example Request
 
 ```bash
-curl http://localhost:8080/api/weather/London
+curl http://localhost:8080/api/weather/Lusaka 
 ```
 
 ### Example Response
 
 ```json
 {
-  "city": "London",
+  "city": "Lusaka",
   "temperature": 21.3,
   "windSpeed": 5.1,
   "condition": "Sunny"
@@ -105,13 +105,13 @@ curl http://localhost:8080/api/weather/London
 
 ```bash
 # New York
-curl http://localhost:8080/api/weather/NewYork
+curl http://localhost:8080/api/weather/kitwe
 
 # Tokyo
-curl http://localhost:8080/api/weather/Tokyo
+curl http://localhost:8080/api/weather/luanshya 
 
 # Paris
-curl http://localhost:8080/api/weather/Paris
+curl http://localhost:8080/api/weather/chingola
 ```
 
 ## Architecture
